@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#09090B"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" stroke="#27272A" stroke-width="4"/>
+  <!-- 4 Stem Bars -->
+  <rect x="116" y="140" width="44" height="232" rx="22" fill="#A855F7"/>
+  <rect x="194" y="96" width="44" height="320" rx="22" fill="#06B6D4"/>
+  <rect x="272" y="164" width="44" height="184" rx="22" fill="#EC4899"/>
+  <rect x="350" y="120" width="44" height="272" rx="22" fill="#3B82F6"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Ghost Stem Player",
+  "description": "Mobile-first four-channel synchronized Web Audio stem workstation with real-time mixing, looping, IndexedDB project persistence, and PCM WAV mix export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

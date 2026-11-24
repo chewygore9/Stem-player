@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #09090b;
+    color: #f4f4f5;
+    overscroll-behavior-y: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Touch-responsive custom range inputs */
+input[type="range"].stem-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"].stem-slider::-webkit-slider-runnable-track {
+  height: 10px;
+  border-radius: 9999px;
+}
+
+input[type="range"].stem-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 26px;
+  width: 26px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 2px solid #18181b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: -8px;
+  transition: transform 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+input[type="range"].stem-slider:active::-webkit-slider-thumb {
+  transform: scale(1.12);
+}
+
